@@ -8,20 +8,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="./images/logo.ico" type="imagex/png">
+    <link rel="shortcut icon" href="../images/logo.ico" type="imagex/png">
     <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
     <title>Dia 03 - Crie um Botão Animado</title>
 </head>
 <body>
     <Header>
-        <div class="logo">
-            <img src="../images/logo.png" alt="">
-            <h1>21 Dias de Código</h1>
-        </div>
+        <a href="../main.html">
+            <div class="logo">
+                <img src="../images/logo.png" alt="">
+                <h1>21 Dias de Código</h1>
+            </div>
+        </a>
     </Header>
 
     <main>
-        <button>Não Clique Aqui!!!</button>
+        <button onclick="not()">
+            Não Clique Aqui!!!
+            <img src="../images/emoji.png" alt="">
+        </button>
     </main>
 </body>
 

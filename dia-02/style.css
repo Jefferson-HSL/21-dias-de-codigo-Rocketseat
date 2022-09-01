@@ -26,6 +26,10 @@ header{
     top: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 .logo{
     display: flex;
     align-items: center;

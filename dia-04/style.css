@@ -54,29 +54,3 @@ main{
     width: 100%;
     height: 100%;
 }
-
-button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 13rem;
-    height: 7rem;
-    gap: 0.5rem;
-    background: black;
-    color: white;
-    border-radius: 0.8rem;
-    font-size: 1.5rem;
-    font-weight: 600;
-    font-family: "Alumni Sans Pinstripe", sans-serif;
-    cursor: pointer;
-}
-
-button:hover{
-    animation-duration: 10s;
-    transform: rotate(50deg) translateX(200px);
-}
-
-button img{
-    width: 3rem;
-    height: 3rem;
-}
