@@ -54,3 +54,44 @@ main{
     width: 100%;
     height: 100%;
 }
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 18rem;
+    height: 30rem;
+    background: #34495E;
+    border-radius: 1rem;
+}
+
+input{
+    display: flex;
+    align-items: center;
+    width: 14rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+    padding-left: .8rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+article{
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    margin-bottom: .6rem;
+}
+
+button{
+    width: 3rem;
+    height: 3rem;
+    background: white;
+    border: 1px solid black;
+}
+
+button img{
+    width: 2rem;
+    height: 2rem;
+}
