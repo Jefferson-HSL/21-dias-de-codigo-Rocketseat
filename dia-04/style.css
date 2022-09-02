@@ -89,6 +89,7 @@ button{
     height: 3rem;
     background: white;
     border: 1px solid black;
+    cursor: pointer;
 }
 
 button img{
