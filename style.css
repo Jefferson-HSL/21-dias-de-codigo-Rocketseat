@@ -6,7 +6,8 @@
 
 :root{
     --color-primary: #090809;
-    --color-secundary: #c4c4c4;
+    --color-secundary: #FFFFFF;
+    --color-thrid: #34495E;
 }
 
 body{
@@ -71,13 +72,13 @@ article{
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    background: var(--color-secundary);
-    color: var(--color-primary);
+    background: var(--color-thrid);
+    color: var(--color-secundary);
     text-align: center;
     width: 12rem;
     height: 15rem;
     border-radius: 0.5rem;
-    border: 1px solid var(--color-secundary);
+    border: 1px solid var(--color-thrid);
     padding-bottom: 3rem;
     gap: 1rem;
 }
@@ -92,10 +93,10 @@ article div{
 article h1{
     width: 4rem;
     height: 4rem;
-    background: var(--color-primary);
+    background: #25364b;
     color: var(--color-secundary);
     text-align: center;
-    border-radius: 0 0.5rem 0 3rem;
+    border-radius: 0 0.5rem 0 2rem;
 }
 
 article p{
