@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../images/logo.ico" type="imagex/png">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Dia 03 - Crie um Botão Animado</title>
+</head>
+<body>
+    <Header>
+        <a href="../index.html">
+            <div class="logo">
+                <img src="../images/logo.png" alt="">
+                <h1>21 Dias de Código</h1>
+            </div>
+        </a>
+    </Header>
+
+    <main>
+        <section>
+            <span class="clock">00:00:00</span>
+
+            <div>
+                <button class="start" onclick="Start()">
+                    <img src="./images/start.png" alt="Botão de começar">
+                    <p>Iniciar</p>
+                </button>
+                
+                <button class="stop" onclick="Stop()" disabled="true">
+                    <img src="./images/stop.png" alt="Botão de Pausar">
+                    <p>Pausar</p>
+                </button>
+                
+                <button class="close" onclick="Close()" disabled="true">
+                    <img src="./images/close.png" alt="Botão de Encerrar">
+                    <p>Encerrar</p>
+                </button>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
